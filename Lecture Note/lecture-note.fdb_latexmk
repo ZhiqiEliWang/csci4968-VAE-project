@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1680876885 "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Lecture Note/lecture-note.tex" "lecture-note.pdf" "lecture-note" 1680876887 0
-  "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Lecture Note/lecture-note.tex" 1680876885 9469 240ab2abbb027ad231974c10eef5adc2 ""
-  "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1680743007 170686 bbb557a3e7289c02ff2240d99167da11 ""
+["pdflatex"] 1681133293 "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Lecture Note/lecture-note.tex" "lecture-note.pdf" "lecture-note" 1681133294 0
+  "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Lecture Note/lecture-note.tex" 1681133293 9448 6c1c6345e87c0a9e0677a4c3b31bf6c7 ""
+  "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1680894659 172470 20444864bc178e2c096801ffe835bcb3 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1670597341 12668 6e680d0b1d626f8a39d57a33f513cc71 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm" 1673552609 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs5.tfm" 1673552610 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -218,9 +218,9 @@
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1666275769 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wrapfig/wrapfig.sty" 1679344035 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1666275769 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "lecture-note.aux" 1680876886 2761 1e51e9bdce3ff2ebe359a5a6b40d8d9e "pdflatex"
-  "lecture-note.out" 1680876886 2411 4d120a7308d89cd9a78ccdb3960f00bc "pdflatex"
-  "lecture-note.tex" 1680876885 9469 240ab2abbb027ad231974c10eef5adc2 ""
+  "lecture-note.aux" 1681133294 2761 1e51e9bdce3ff2ebe359a5a6b40d8d9e "pdflatex"
+  "lecture-note.out" 1681133294 2411 4d120a7308d89cd9a78ccdb3960f00bc "pdflatex"
+  "lecture-note.tex" 1681133293 9448 6c1c6345e87c0a9e0677a4c3b31bf6c7 ""
   "reparam-graph.png" 1680875278 178778 e4995b02bcdaa1db1e2b07107d839c31 ""
   "vae-graph.png" 1680756842 34644 c7698c17c7fe06c8fac5d1b05170d50d ""
   (generated)

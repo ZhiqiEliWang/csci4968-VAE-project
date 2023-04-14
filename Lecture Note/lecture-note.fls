@@ -393,7 +393,6 @@ INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/l
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
-INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/mathtools/empheq.sty
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/mathtools/empheq.sty
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/mathtools/empheq.sty
@@ -1274,7 +1273,6 @@ INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/tf
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./reparam-graph.png
 INPUT ./reparam-graph.png
 INPUT reparam-graph.png
@@ -1288,8 +1286,6 @@ INPUT ./lecture-note.out
 INPUT ./lecture-note.out
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk
-INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb

@@ -1,0 +1,56 @@
+\documentclass{article}
+
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{booktabs} % for better table formatting
+\usepackage{siunitx} % for aligning table columns by decimal point
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{\vspace{-3cm}VAE Problem Set}
+\author{Group U8: Lake Yin, Zhiqi Wang}
+\date{\today}
+\maketitle
+
+In the lecture of VAE, we've learned that the variational autoencoder (VAE) as a tweak of autoencoder with given objective. In this problem set we will explore how ELBO is the objective function of VAE.
+
+\section{Problem 1}
+Assume the observed variable $x$ is random sampled from a distribution $p^*(x)$ that's unknown, our VAE is going to approximate a model $p_\theta(x) \approx p^*(x)$.
+
+Given the log marginal likelihood of $x$: $$\log p_\theta (x) = \mathbb{E}_{q_\phi\theta(z|x)}[\log q_\theta (x)]$$
+
+Rewrite it to separate it into two terms: $$\log p_\theta (x) = \mathbb{E}_{q,\theta(z|x)}\left[\log \left[\frac{p_\theta (x,z)}{q_\phi(z|x)}\right]\right] + KL(q_\theta(z|x)||p_\theta(z))$$
+
+solution:
+
+\color{blue}
+
+\begin{align}
+    \log p_\theta (x) &= \mathbb{E}_{q_\phi(z|x)}\left[\log q_\theta (x)\right]\\
+    &= \mathbb{E}_{q_\phi(z|x)}\left[\log\frac{p_\theta(x,z)}{p_\theta(z|x)}\right]\\
+    &= \mathbb{E}_{q_\phi(z|x)}\left[\log\frac{p_\theta(x,z)}{q_\phi(z|x)} \frac{q_\phi(z|x)}{p_\theta(z|x)}\right]\\
+    &= \mathbb{E}_{q_\phi(z|x)}\left[\log\frac{p_\theta(x,z)}{q_\phi(z|x)}\right] + \mathbb{E}_{q_\phi(z|x)}\left[\log\frac{q_\phi(z|x)}{p_\theta(z|x)}\right]\\
+    &= \mathbb{E}_{q_\phi(z|x)}\left[\log\frac{p_\theta(x,z)}{q_\phi(z|x)}\right] + KL(q_\phi(z|x)||p_\theta(z|x))\\
+\end{align}
+
+\color{black}
+
+\bigskip
+
+\section{Problem 2}
+Rewrite the equation you get from question 1 to explain why the term $\log [\frac{p_\theta (x,z)}{q_\phi(z|x)}]$ would be called evidence lower bound (ELBO).
+
+\color{blue}
+
+Let $\mathcal{L}_{\theta, \phi}(x)$ denote $\mathbb{E}_{q_\phi(z|x)}\left[\log\frac{p_\theta(x,z)}{q_\phi(z|x)}\right]$ (The ELBO). Then we have:
+
+\begin{align}
+    \log p_\theta(x) &= \mathcal{L}_{\theta, \phi}(x) + KL(q_\phi(z|x)||p_\theta(z|x))\\
+    \mathcal{L}_{\theta, \phi}(x) &= \log p_\theta(x) - KL(q_\phi(z|x)||p_\theta(z|x))
+\end{align}
+
+Since KL-Divergence is always non-negative, we have $\mathcal{L}_{\theta, \phi}(x) \geq \log p_\theta(x)$, which is the ELBO.
+
+\color{black}
+
+\end{document}

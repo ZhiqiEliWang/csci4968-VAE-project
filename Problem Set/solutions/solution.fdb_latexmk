@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1681139852 "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Problem Set/solutions/solution.tex" "solution.pdf" "solution" 1681139853 0
-  "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Problem Set/solutions/solution.tex" 1681139852 2379 3ced302ea5cf5453cb199ccaf737bd9e ""
+["pdflatex"] 1681848242 "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Problem Set/solutions/solution.tex" "solution.pdf" "solution" 1681848243 0
+  "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Problem Set/solutions/solution.tex" 1681848241 2401 b76ca34926bfb4bdd913e4c38e073bcd ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1680894659 172470 20444864bc178e2c096801ffe835bcb3 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1677853163 23187009 179c72fca4dd44ffae3dec0205482476 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1666275717 1004 54797486969f23fa377b128694d548df ""
@@ -71,8 +71,8 @@
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty" 1677853144 12691 5b542990fe866f3d772f71346cf85b95 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1677853165 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/translations.sty" 1677853165 44247 2188b95d0ee74e31eca4d316263c58a7 ""
-  "solution.aux" 1681139853 226 88dfa76243f741c54e7957bb9046da0a "pdflatex"
-  "solution.tex" 1681139852 2379 3ced302ea5cf5453cb199ccaf737bd9e ""
+  "solution.aux" 1681848243 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "solution.tex" 1681848241 2401 b76ca34926bfb4bdd913e4c38e073bcd ""
   (generated)
   "solution.aux"
   "solution.log"

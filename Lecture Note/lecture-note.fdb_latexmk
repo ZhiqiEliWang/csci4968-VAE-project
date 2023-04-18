@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1681356716 "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Lecture Note/lecture-note.tex" "lecture-note.pdf" "lecture-note" 1681356717 0
-  "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Lecture Note/lecture-note.tex" 1681356715 10648 963eef496101b926aa4a135e647767bc ""
+["pdflatex"] 1681779818 "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Lecture Note/lecture-note.tex" "lecture-note.pdf" "lecture-note" 1681779819 0
+  "/Users/eliwang2332/Documents/GitHub/csci4968-VAE-project/Lecture Note/lecture-note.tex" 1681779817 10518 06a7a71f6a09293bd2426d5221b2afab ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1680894659 172470 20444864bc178e2c096801ffe835bcb3 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1670597341 12668 6e680d0b1d626f8a39d57a33f513cc71 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm" 1673552609 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -216,11 +216,11 @@
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1666275769 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wrapfig/wrapfig.sty" 1679344035 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1666275769 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "lecture-note.aux" 1681356717 3007 589da6d5307d5ada0d836ae37b5d3f5d "pdflatex"
-  "lecture-note.out" 1681356717 2690 7f013247da66d471552ac75847adc039 "pdflatex"
-  "lecture-note.tex" 1681356715 10648 963eef496101b926aa4a135e647767bc ""
-  "reparam-graph.png" 1680875278 178778 e4995b02bcdaa1db1e2b07107d839c31 ""
-  "vae-graph.png" 1680756842 34644 c7698c17c7fe06c8fac5d1b05170d50d ""
+  "lecture-note.aux" 1681779819 3007 589da6d5307d5ada0d836ae37b5d3f5d "pdflatex"
+  "lecture-note.out" 1681779819 2690 7f013247da66d471552ac75847adc039 "pdflatex"
+  "lecture-note.tex" 1681779817 10518 06a7a71f6a09293bd2426d5221b2afab ""
+  "reparam.png" 1681779477 198715 d70c9c985f3fb8171456eb6055098e6b ""
+  "vae-graph.png" 1681779542 180286 a66a38d469a5771af0406235cdcb1566 ""
   (generated)
   "lecture-note.aux"
   "lecture-note.log"

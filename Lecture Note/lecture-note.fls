@@ -1273,13 +1273,13 @@ INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/tf
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT ./reparam-graph.png
-INPUT ./reparam-graph.png
-INPUT reparam-graph.png
-INPUT ./reparam-graph.png
-INPUT ./reparam-graph.png
-INPUT ./reparam-graph.png
-INPUT ./reparam-graph.png
+INPUT ./reparam.png
+INPUT ./reparam.png
+INPUT reparam.png
+INPUT ./reparam.png
+INPUT ./reparam.png
+INPUT ./reparam.png
+INPUT ./reparam.png
 INPUT /Users/eliwang2332/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT lecture-note.aux
 INPUT ./lecture-note.out

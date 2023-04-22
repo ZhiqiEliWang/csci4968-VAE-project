@@ -1,0 +1,8 @@
+
+*.fdb_latexmk
+*.fdb_latexmk
+*.fdb_latexmk
+*.log
+Lecture Note/lecture-note.synctex.gz
+*.aux
+*.fls

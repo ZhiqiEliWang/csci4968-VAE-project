@@ -6,3 +6,5 @@
 Lecture Note/lecture-note.synctex.gz
 *.aux
 *.fls
+*.out
+*.gz

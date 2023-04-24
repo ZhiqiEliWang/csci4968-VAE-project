@@ -57,7 +57,12 @@ Write a class \texttt{VAE} that is a subclass of PyTorch \texttt{nn.module} that
 An encoder constructor \texttt{\_\_init\_\_(self, c1, c2, lat, k)}, where \texttt{c1} is the output channel size of the first encoder convolution layer, \texttt{c2} is the output channel size of the second encoder convolution layer, \texttt{lat} is the latent dimension size, and \texttt{k} is the kernel size. Do not forget \texttt{super(VAE, self).\_\_init\_\_()}. The constructor initialize an \texttt{Encoder} object and a \texttt{Decoder} object.
 
 \subsubsection*{Reconstruction loss function}
-A function \texttt{r\_loss(self, x, y)}, where \texttt{x} is a batch of autoencoder output images and  \texttt{y} is a batch of ground truth images. The function should calculate the loss between the output and ground truth with total sum binary crossentropy.
+A function \texttt{r\_loss(self, x, y)}, where \texttt{x} is a batch of autoencoder output images and  \texttt{y} is a batch of ground truth images. The function should calculate the loss between the output and ground truth with total sum binary crossentropy formula
+
+\[-\sum[x \odot \log y + (1 - x) \odot \log(1 - y )]\] 
+
+\noindent
+where $\odot$ is the element-wise multiplication operator.
 
 \subsubsection*{KL divergence function}
 A function \texttt{kl\_loss(self, mu, sigma)}, calculates the KL divergence given \texttt{mu} and \texttt{sigma} between two probability distributions. As discussed, the goal of this function is to force the latent space into a normal distribution. The KL divergence for a normal distribution in this case can be calculated as
@@ -69,7 +74,8 @@ A function \texttt{gaussian(self, mu, sigma)}, which performs the reparameteriza
 
 \[\mu + \sigma \odot \mathcal{N}\]
 
-where $\odot$ is the element-wise multiplication operator and $\mathcal{N}$ is a normal distribution tensor with shape equal to \texttt{sigma}, a mean of 0, and a standard deviation of 1.
+\noindent
+where $\mathcal{N}$ is a normal distribution tensor with shape equal to \texttt{sigma}, a mean of 0, and a standard deviation of 1.
 
 \subsubsection*{Forward function}
 A function \texttt{forward(self, x)}, where \texttt{x} is a batch of images. The function should apply the encoder object to \texttt{x} to obtain \texttt{mu} and \texttt{sigma}, then apply \texttt{gaussian} to \texttt{mu} and \texttt{sigma} to obtain \texttt{z}, and then apply the decoder to \texttt{z} to obtain \texttt{y}. Calculate \texttt{loss} by adding together \texttt{r\_loss(x, y)} and \texttt{kl\_loss(mu, sigma)} and store \texttt{loss} as an instance variable. Return \texttt{y}.

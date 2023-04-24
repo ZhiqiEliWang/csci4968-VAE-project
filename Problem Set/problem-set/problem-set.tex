@@ -59,7 +59,7 @@ An encoder constructor \texttt{\_\_init\_\_(self, c1, c2, lat, k)}, where \textt
 \subsubsection*{Reconstruction loss function}
 A function \texttt{r\_loss(self, x, y)}, where \texttt{x} is a batch of autoencoder output images and  \texttt{y} is a batch of ground truth images. The function should calculate the loss between the output and ground truth with total sum binary crossentropy formula
 
-\[-\sum[x \odot \log y + (1 - x) \odot \log(1 - y )]\] 
+\[-[x \odot \log y + (1 - x) \odot \log(1 - y )]\] 
 
 \noindent
 where $\odot$ is the element-wise multiplication operator.
@@ -67,7 +67,7 @@ where $\odot$ is the element-wise multiplication operator.
 \subsubsection*{KL divergence function}
 A function \texttt{kl\_loss(self, mu, sigma)}, calculates the KL divergence given \texttt{mu} and \texttt{sigma} between two probability distributions. As discussed, the goal of this function is to force the latent space into a normal distribution. The KL divergence for a normal distribution in this case can be calculated as
 
-\[\sum (\mu ^ 2 + \sigma ^ 2 - \log\sigma - \frac{1}{2})\]
+\[\mu ^ 2 + \sigma ^ 2 - \log\sigma - \frac{1}{2}\]
 
 \subsubsection*{Gaussian function}
 A function \texttt{gaussian(self, mu, sigma)}, which performs the reparameterization trick on \texttt{mu} and \texttt{sigma}. This function should return the output of 

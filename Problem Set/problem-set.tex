@@ -13,20 +13,9 @@
 \date{\today}
 \maketitle
 
-In the lecture of VAE, we've learned that the variational autoencoder (VAE) as a tweak of autoencoder with given objective. In this problem set we will explore how ELBO is the objective function of VAE.
-
 
 
 \section*{Problem 1}
-
-The equation of log likelihood we used in the lecture is:
-
- $$\log p_\theta (x) = \mathcal{L}_{\theta, \phi}(x) + KL(q_\phi(z|x)||p_\theta(z|x))$$
-
-The first term on RHS is the ELBO, which is the objective function to use for VAE. Rewrite this equation to explain why that would be called evidence lower bound (ELBO).
-
-
-\section*{Problem 2}
 
 Here's the code implementation of VAE in PyTorch. (\href{https://github.com/ZhiqiEliWang/csci4968-VAE-project}{https://github.com/ZhiqiEliWang/csci4968-VAE-project}). In assignment 4, we have done an reconstruction of Fashion-MNIST dataset. In this problem, we will build a VAE on assignment 4 based on our implementation of VAE. Import the data and partition it into a test set and training set.
 
